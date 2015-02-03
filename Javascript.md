@@ -1,4 +1,5 @@
-# Meteor-code-guidelines
+# Meteor javascript guidelines
+This guidelines apply to all javascript code in our meteor applications.
 
 We use [google's javascript guidelines](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
