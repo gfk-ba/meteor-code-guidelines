@@ -1,7 +1,7 @@
 # Meteor-code-guidelines
 We use [google's javascript guidelines](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
-Exceptions to google's styleguide:
+Ammendments to google's guideline:
 - var:
     - Google's rule applies with the exception of globals. When defining a global you should leave out the var so the Meteor framework will make the variable globally accessible
 - Custom Exceptions:
@@ -23,4 +23,34 @@ function a () {
 	b.apply(this, arguments);
 }
 ```
+- Filenames
+    - Do not use - only use _
+- Custom toString() methods
+    - Only create them when you have good reasons.
+- Code formatting
+	- Array and Object Initializers
+		- Array and Object initialisation can only be in 1 line when its a simple Array or Object (no nesting)
+	- Column limit
+		- We do not enforce a hard column limit, use common sense.
+	- Function Arguments
+		- Avoid wrapping if you're arguments force you to wrap the function statement your argument names are probaply too long
+		- Also avoid indenting the function call, unless you really really really have to.
+	- Passing Anonymous Functions
+      - When you need to wrap a function call with an anyonymous function store it in a variable first.
+  - Binary and Ternary Operators
+      - We do not have a hard column limit so must inline if's should fit in 1 row.
+  - JavaScript Types
+      - Google's guideline includes a lot of closure compiler specific stuff which can be ignored. However JSDOC should be accurate and should use their guideline.
+  - Comments
+      - HTML in JSDoc
+          - Please do not put HTML in JSDoc because it will make it less readable
+  - Compiling
+      - The Meteor framework handles the minifying/compiling of our application, no extra user actions are required.
+  
+  
+	
+
+
+*TBD* 
+Change 4 soft tabs to 2 soft tabs?!
 
