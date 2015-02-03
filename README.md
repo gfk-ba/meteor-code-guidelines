@@ -23,3 +23,4 @@ function a () {
 	b.apply(this, arguments);
 }
 ```
+
