@@ -2,13 +2,13 @@
 We use [google's javascript guidelines](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
 Ammendments to google's guideline:
-- var:
+- var
     - Google's rule applies with the exception of globals. When defining a global you should leave out the var so the Meteor framework will make the variable globally accessible
-- Custom Exceptions:
+- Custom Exceptions
     - Use Meteor.error﻿
-- Delete:
+- Delete
     - We use delete because it's more explicit of what it is doing and it feels like premature optimisation to reassign to null
-- for-in-loop:
+- for-in-loop
     - Don't do manual looping use underscore﻿ instead
 - Naming
     - Properties and methods
