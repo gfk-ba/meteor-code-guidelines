@@ -1,4 +1,5 @@
 # Meteor-code-guidelines
+
 We use [google's javascript guidelines](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
 Ammendments to google's guideline:
@@ -46,6 +47,8 @@ function a () {
           - Please do not put HTML in JSDoc because it will make it less readable
   - Compiling
       - The Meteor framework handles the minifying/compiling of our application, no extra user actions are required.
+  - Linting tool
+      - Always enable JSHINT in your IDE and set it up to use the project's ```.jsinthrc```
   
   
 	
