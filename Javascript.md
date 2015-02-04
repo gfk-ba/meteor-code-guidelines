@@ -44,7 +44,7 @@ function a () {
   - JavaScript Types
       - Google's guideline includes a lot of closure compiler specific stuff which can be ignored. However JSDOC should be accurate and should use their guideline.
   - Comments
-      - All methods you touch or add should be documented with jsdoc
+      - All methods you touch or add should be documented with JSDoc
       - HTML in JSDoc
           - Please do not put HTML in JSDoc because it will make it less readable
   - Compiling
