@@ -50,7 +50,7 @@ function a () {
   - Compiling
       - The Meteor framework handles the minifying/compiling of our application, no extra user actions are required.
   - Linting tool
-      - Always enable JSHINT in your IDE and set it up to use the project's ```.jsinthrc```
+      - Always enable JSHINT in your IDE and set it up to use the project's ```.jshintrc```
   
   
 	
