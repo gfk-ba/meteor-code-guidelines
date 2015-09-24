@@ -1,4 +1,4 @@
-# Meteor javascript guidelines
+# Javascript guidelines
 This guidelines apply to all javascript code in our meteor applications.
 
 We use [google's javascript guidelines](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
@@ -51,11 +51,10 @@ function a () {
       - The Meteor framework handles the minifying/compiling of our application, no extra user actions are required.
   - Linting tool
       - Always enable JSHINT in your IDE and set it up to use the project's ```.jshintrc```
-  
-  
-	
 
 
-*TBD* 
+
+
+
+*TBD*
 Change 4 soft tabs to 2 soft tabs?!
-
