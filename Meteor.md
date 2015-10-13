@@ -39,3 +39,28 @@ Example:
   </ul>
 </div>
 ```
+
+## Logging
+
+Always add you package name to the `tag` when logging, this makes it easier to
+find your messages. Also logging the `Core.Authentication.getSurveyId()` and `Core.Authentication.getUserId()`
+would be preferred when logging errors. Here are some examples:
+
+```javascript
+Meteor.log.error('Some fatal error happend!', {
+    package: 'import-manager'
+    surveyId: Core.Authentication.getSurveyId(),
+    userId: Core.Authentication.getUserId()
+});
+
+Meteor.log.warn('Hmmm, OK, this shouldn\'t happen... Lets leave a warning about it!', {
+    package: 'import-manager'
+    surveyId: Core.Authentication.getSurveyId(),
+    userId: Core.Authentication.getUserId()
+});
+
+Meteor.log.info('Hey, this is just a note that that process returned with exit-code 0', {package: 'import-manager'});
+
+Meteor.log.debug('This is just some hand information for when you are developing', {package: 'import-manager'});
+
+```
